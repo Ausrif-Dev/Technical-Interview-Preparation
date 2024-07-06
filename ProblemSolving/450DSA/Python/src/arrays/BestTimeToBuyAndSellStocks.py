@@ -32,5 +32,7 @@ def maxProfit(prices):
 
 
 if __name__ == "__main__":
-    print(maxProfit([7, 1, 5, 3, 6, 4]))
-    print(maxProfit([7, 6, 4, 3, 1]))
+    print("Single Day buy")
+    print(maxProfit([1,2,9,2,5,7,3]))
+    print("Single Day Sell")
+    print(maxProfit([0,4,2,5,7,7,8,4,3,5,6,2,2,4,9,6,5,4,2]))
